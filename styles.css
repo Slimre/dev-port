@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    background-color: lightslategray;
+}
+
+nav div {
+    display: inline;
+}
+
+.creator-name {
+    float: right;
+    padding-top: 17.5px;
+    padding-right: 1rem;
+    font-size: 11px;
+    color: blanchedalmond;
+    text-shadow: 3px 3px 10px black;
+}
+
+.links button {
+    background: none;
+    padding: 1.4rem 3rem;
+    border-color: transparent;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-style: oblique;
+    transition: background-color 0.1s;
+    text-transform: uppercase;
+}
+
+.links button:hover {
+    background-color: aquamarine;
+}
+
+.homework {
+    height: 38.5rem;
+    background-size: cover;
+}
+
+.box-1 {
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: rgba(248, 248, 255, 0.575);
+    text-align: center;
+}
+
+.box-1 h2 {
+    text-align: left;
+    color: darkcyan;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.box-1 button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid slategrey;
+    padding: 9px;
+    width: 70px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.box-1 button:hover {
+    width: 140px;
+    background: lightslategray;
+}
+
+.creator-pages {
+    background: silver;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
